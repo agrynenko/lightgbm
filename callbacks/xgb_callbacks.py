@@ -25,9 +25,7 @@ class XGB_NDCG_TIME(xgb.callback.TrainingCallback):
         self.max_time = max_time
         self.verbose = verbose
 
-        self.d_test = xgb.DMatrix(X_test, label=y_test)
-        _, group_sizes = np.unique(qid_test, return_counts=True)
-        self.d_test.set_group(group_sizes)
+        self.d_test = xgb.DMatrix(X_test, label=y_test, qid=qid_test)
 
         self.start_time = None
         self.times = []
@@ -36,7 +34,7 @@ class XGB_NDCG_TIME(xgb.callback.TrainingCallback):
     def before_training(self, model):
         self.start_time = time.time()
 
-    def after_iteration(self, model, epoch, evals_log):
+    def after_iteration(self, model: xgb.Booster, epoch, evals_log):
         if epoch == 0 or epoch % self.freq != 0:
             return False
 
