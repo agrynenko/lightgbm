@@ -22,3 +22,7 @@ def mean_ndcg_at_k(y_true, y_pred, qids, k=10):
         scores.append(score)
 
     return float(np.mean(scores)) if scores else 0.0
+
+
+def make_group(qids):
+    return qids.value_counts().sort_index().values
