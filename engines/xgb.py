@@ -1,3 +1,4 @@
+from typing import Any, Dict
 import xgboost as xgb
 
 from utils import make_group
@@ -19,10 +20,10 @@ class XGB_Engine():
     
     def train(
         self,
-        params,
-        boost_rounds,
-        callbacks,
-        early_stopping_rounds = 10
+        params: Dict[str, Any],
+        boost_rounds: int,
+        callbacks: list,
+        early_stopping_rounds: int = 10
     ):
         return xgb.train(
             params=params,
