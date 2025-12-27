@@ -25,7 +25,7 @@ class LGBM_Engine():
     ):
         callbacks.append(lgbm.early_stopping(stopping_rounds=early_stopping_rounds))
 
-        lgbm.train(
+        return lgbm.train(
             params=params,
             train_set=self.d_train,
             num_boost_round=boost_rounds,
