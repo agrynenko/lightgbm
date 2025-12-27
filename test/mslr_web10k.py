@@ -1,0 +1,132 @@
+import os
+
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
+os.environ["NUMEXPR_NUM_THREADS"] = "1"
+
+import pandas as pd
+import time
+from configs import mslr_web10k
+from engines import *
+from callbacks import *
+
+
+def load_letor(path):
+    labels = []
+    qids = []
+    features = []
+
+    with open(path, "r") as f:
+        for line in f:
+            if not line.strip():
+                continue
+
+            parts = line.split("#")[0].split()
+
+            label = int(parts[0])
+            qid = int(parts[1].split(":")[1])
+
+            feats = {}
+            for item in parts[2:]:
+                k, v = item.split(":")
+                feats[int(k)] = float(v)
+
+            labels.append(label)
+            qids.append(qid)
+            features.append(feats)
+
+    X = pd.DataFrame(features).fillna(0.0)
+    y = pd.Series(labels)
+    qid = pd.Series(qids)
+
+    return X, y, qid
+
+
+def task(fold: str):
+    start = time.time()
+    
+    # Load fold once
+    X_train, y_train, qid_train = load_letor(f"data/MSLR-WEB10K/{fold}/train.txt")
+    X_val, y_val, qid_val = load_letor(f"data/MSLR-WEB10K/{fold}/vali.txt")
+    X_test, y_test, qid_test = load_letor(f"data/MSLR-WEB10K/{fold}/test.txt")
+
+    engine_params = [X_train, y_train, qid_train, X_val, y_val, qid_val]
+    cb_params = [X_test, y_test, qid_test]
+
+    # Init xgb engine once
+    xgb_engine = XGB_Engine(*engine_params)
+
+    fold_results = {}
+    
+    print(f"Dataset loaded, elapsed {(time.time() - start):.3f} seconds")
+
+    for model in mslr_web10k:
+        name = model["name"]
+        print(f"Experiment {name}")
+
+        engine_type = model["engine"]
+
+        if engine_type == "xgb":
+            engine = xgb_engine
+            cb = XGB_NDCG_TIME(*cb_params, max_time=300, verbose=True)
+
+        elif engine_type == "lgbm":
+            engine = LGBM_Engine(*engine_params)  # new engine each time (Dataset handle needs this)
+            cb = LGBM_NDCG_TIME(*cb_params, max_time=300, verbose=True)
+
+        else:
+            raise RuntimeError(f"Unknown engine {engine_type}")
+
+        engine.train(
+            params=model["model"],
+            boost_rounds=1000,
+            callbacks=[cb],
+        )
+
+        fold_results[name] = cb.to_dataframe()
+
+
+    return fold_results
+
+
+TASKS = 5
+
+
+def main():
+    all_results = {}
+
+    for i in range(1, TASKS + 1):
+        print(f"===== TASK {i} =====")
+        fold_results = task(f"Fold{i}")
+
+        for model_name, df in fold_results.items():
+            all_results.setdefault(model_name, []).append(df)
+
+    # Aggregate per model
+    for model_name, dfs in all_results.items():
+        print(f"Averaging model: {model_name}")
+
+        min_len = min(len(df) for df in dfs)
+        dfs_trunc = [
+            df.iloc[:min_len].reset_index(drop=True)
+            for df in dfs
+        ]
+
+        avg_df = (
+            pd.concat(dfs_trunc)
+            .groupby(level=0)
+            .mean()
+            .reset_index(drop=True)
+        )
+
+        filename = f"web10k_{model_name}_ndcgs.csv"
+        avg_df.to_csv(filename, index=False)
+
+        print(f"Saved averaged learning curve to {filename}")
+  
+  
+if __name__ == '__main__':
+    main()
+    
