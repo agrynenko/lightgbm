@@ -8,38 +8,29 @@ os.environ["NUMEXPR_NUM_THREADS"] = "1"
 
 import pandas as pd
 import time
+from pathlib import Path
 from configs import mslr_web10k
 from engines import *
 from callbacks import *
 
 
-def load_letor(path):
-    labels = []
-    qids = []
-    features = []
+def load_letor(path: str):
+    path = Path(path)
 
-    with open(path, "r") as f:
-        for line in f:
-            if not line.strip():
-                continue
+    if not path.exists():
+        raise FileNotFoundError(f"Parquet file not found: {path}")
 
-            parts = line.split("#")[0].split()
+    df = pd.read_parquet(path)
 
-            label = int(parts[0])
-            qid = int(parts[1].split(":")[1])
+    # Mandatory columns
+    required = {"qid", "label"}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f"Missing columns in {path}: {missing}")
 
-            feats = {}
-            for item in parts[2:]:
-                k, v = item.split(":")
-                feats[int(k)] = float(v)
-
-            labels.append(label)
-            qids.append(qid)
-            features.append(feats)
-
-    X = pd.DataFrame(features).fillna(0.0)
-    y = pd.Series(labels)
-    qid = pd.Series(qids)
+    qid = df["qid"]
+    y = df["label"]
+    X = df.drop(columns=["qid", "label"])
 
     return X, y, qid
 
@@ -48,9 +39,9 @@ def task(fold: str):
     start = time.time()
     
     # Load fold once
-    X_train, y_train, qid_train = load_letor(f"data/MSLR-WEB10K/{fold}/train.txt")
-    X_val, y_val, qid_val = load_letor(f"data/MSLR-WEB10K/{fold}/vali.txt")
-    X_test, y_test, qid_test = load_letor(f"data/MSLR-WEB10K/{fold}/test.txt")
+    X_train, y_train, qid_train = load_letor(f"data/MSLR-WEB10K_PARQUET/{fold}/train.parquet")
+    X_val, y_val, qid_val = load_letor(f"data/MSLR-WEB10K_PARQUET/{fold}/vali.parquet")
+    X_test, y_test, qid_test = load_letor(f"data/MSLR-WEB10K_PARQUET/{fold}/test.parquet")
 
     engine_params = [X_train, y_train, qid_train, X_val, y_val, qid_val]
     cb_params = [X_test, y_test, qid_test]
@@ -69,12 +60,13 @@ def task(fold: str):
         engine_type = model["engine"]
 
         if engine_type == "xgb":
+            freq = 1 if (name == "xgb_exact") else 10
             engine = xgb_engine
-            cb = XGB_NDCG_TIME(*cb_params, max_time=300, verbose=True)
+            cb = XGB_NDCG_TIME(*cb_params, freq=freq, max_time=300, verbose=True)
 
         elif engine_type == "lgbm":
             engine = LGBM_Engine(*engine_params)  # new engine each time (Dataset handle needs this)
-            cb = LGBM_NDCG_TIME(*cb_params, max_time=300, verbose=True)
+            cb = LGBM_NDCG_TIME(*cb_params, freq=5, max_time=60, verbose=True)
 
         else:
             raise RuntimeError(f"Unknown engine {engine_type}")
@@ -83,6 +75,7 @@ def task(fold: str):
             params=model["model"],
             boost_rounds=1000,
             callbacks=[cb],
+            early_stopping_rounds=20
         )
 
         fold_results[name] = cb.to_dataframe()
