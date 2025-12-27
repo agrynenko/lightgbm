@@ -63,7 +63,8 @@ class LGBM_NDCG_TIME:
 
         if self.max_time >= 0 and elapsed > self.max_time:
             raise lgbm.callback.EarlyStopException(
-                best_iteration=env.iteration
+                best_iteration=env.iteration,
+                best_score=env.evaluation_result_list
             )
 
     def to_dataframe(self):
