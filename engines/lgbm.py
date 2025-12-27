@@ -1,4 +1,4 @@
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 import lightgbm as lgbm
 
 from utils import make_group
@@ -22,9 +22,10 @@ class LGBM_Engine():
         params: Dict[str, Any],
         boost_rounds: int,
         callbacks: list,
-        early_stopping_rounds: int = 10
+        early_stopping_rounds: Optional[int] = 10
     ):
-        callbacks.append(lgbm.early_stopping(stopping_rounds=early_stopping_rounds))
+        if early_stopping_rounds:
+            callbacks.append(lgbm.early_stopping(stopping_rounds=early_stopping_rounds))
 
         return lgbm.train(
             params=params,
