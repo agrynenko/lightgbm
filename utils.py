@@ -15,7 +15,7 @@ def mean_ndcg_at_k(y_true, y_pred, qids, k=10):
             continue
 
         score = ndcg_score(
-            y_true[mask].reshape(1, -1),
+            y_true[mask].to_numpy().reshape(1, -1),
             y_pred[mask].reshape(1, -1),
             k=min(k, n_docs),
         )
