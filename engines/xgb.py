@@ -1,5 +1,8 @@
 import xgboost as xgb
 
+from utils import make_group
+
+
 
 class XGB_Engine():
     def __init__(
@@ -11,8 +14,8 @@ class XGB_Engine():
         y_val,
         qid_val,
     ):
-        self.d_train = xgb.DMatrix(X_train, label=y_train, qid=qid_train)
-        self.d_val = xgb.DMatrix(X_val, label=y_val, qid=qid_val)
+        self.d_train = xgb.DMatrix(X_train, label=y_train, group=make_group(qid_train))
+        self.d_val = xgb.DMatrix(X_val, label=y_val, group=make_group(qid_val))
     
     def train(
         self,
@@ -25,7 +28,7 @@ class XGB_Engine():
             params=params,
             dtrain=self.d_train,
             num_boost_round=boost_rounds,
-            evals=[self.d_val],
+            evals=[(self.d_val, "val")],
             early_stopping_rounds=early_stopping_rounds,
-            callbacks=callbacks
+            callbacks=callbacks,
         )
