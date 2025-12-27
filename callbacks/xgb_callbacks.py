@@ -33,6 +33,7 @@ class XGB_NDCG_TIME(xgb.callback.TrainingCallback):
 
     def before_training(self, model):
         self.start_time = time.time()
+        return model
 
     def after_iteration(self, model: xgb.Booster, epoch, evals_log):
         if epoch == 0 or epoch % self.freq != 0:
