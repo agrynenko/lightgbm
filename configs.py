@@ -65,8 +65,84 @@ mslr_web10k = [
             "force_row_wise": True,
             "enable_bundle": True,
             "data_sample_strategy": "bagging",
-            
+
             #other
+            "verbosity": -1
+        }
+    },
+
+    # LGBM with GOSS only (Algorithm 2 from paper)
+    {
+        "name":"lgbm_goss",
+        "engine": "lgbm",
+        "model": {
+            "objective": "lambdarank",
+            "boosting_type": "goss",  # GOSS enabled
+            "learning_rate": 0.05,
+            "num_leaves": 255,
+            "min_child_weight": 100,
+            "num_threads": 1,
+
+            # GOSS parameters (a=0.1, b=0.1 for LETOR as per paper)
+            "top_rate": 0.1,      # a: ratio of large gradient instances to keep
+            "other_rate": 0.1,    # b: ratio of small gradient instances to sample
+
+            # execution control
+            "force_row_wise": True,
+            "enable_bundle": False,  # EFB disabled
+
+            # other
+            "verbosity": -1
+        }
+    },
+
+    # Full LightGBM with GOSS + EFB (the complete algorithm from paper)
+    {
+        "name":"lgbm_full",
+        "engine": "lgbm",
+        "model": {
+            "objective": "lambdarank",
+            "boosting_type": "goss",  # GOSS enabled
+            "learning_rate": 0.05,
+            "num_leaves": 255,
+            "min_child_weight": 100,
+            "num_threads": 1,
+
+            # GOSS parameters
+            "top_rate": 0.1,
+            "other_rate": 0.1,
+
+            # execution control
+            "force_row_wise": True,
+            "enable_bundle": True,   # EFB enabled
+
+            # other
+            "verbosity": -1
+        }
+    },
+
+    # Stochastic Gradient Boosting (SGB) - baseline comparison from paper
+    {
+        "name":"lgbm_sgb",
+        "engine": "lgbm",
+        "model": {
+            "objective": "lambdarank",
+            "boosting_type": "gbdt",
+            "learning_rate": 0.05,
+            "num_leaves": 255,
+            "min_child_weight": 100,
+            "num_threads": 1,
+
+            # SGB: random uniform sampling (same ratio as GOSS for fair comparison)
+            "data_sample_strategy": "bagging",
+            "bagging_fraction": 0.2,  # sample 20% of data (equivalent to a+b in GOSS)
+            "bagging_freq": 1,        # resample every iteration
+
+            # execution control
+            "force_row_wise": True,
+            "enable_bundle": False,
+
+            # other
             "verbosity": -1
         }
     }
