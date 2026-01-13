@@ -48,18 +48,21 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--config", required=True, type=str)
     p.add_argument("--train", required=True, type=str)
+    p.add_argument("--val", required=True, type=str)
     p.add_argument("--test", required=True, type=str)
     p.add_argument("--objective", default="reg:squarederror")
     p.add_argument("--num_threads", type=int, default=8)
     p.add_argument("--learning_rate", type=float, default=0.05)
     p.add_argument("--min_child_weight", type=float, default=1.0)
     p.add_argument("--num_round", type=int, default=100)
+    p.add_argument("--eval", type=str, default="l2")
 
     args = p.parse_args()
 
     config = load_xgb_conf(args.config)
 
     dtrain = xgb.DMatrix(args.train)
+    dval = xgb.DMatrix(args.val)
     dtest  = xgb.DMatrix(args.test)
 
     params = {
@@ -67,6 +70,7 @@ def main():
         "learning_rate": args.learning_rate,
         "min_child_weight": args.min_child_weight,
         "nthread": args.num_threads,
+        "eval_metric": args.eval,
         # from external config
         "tree_method": config.pop('tree_method', 'hist'),
         "max_bin": config.pop('max_bin', 255),
@@ -75,14 +79,20 @@ def main():
         "max_leaves": config.pop('max_leaves', 0)
     }
 
-    xgb.train(
+    booster = xgb.train(
         params,
         dtrain,
         num_boost_round=args.num_round,
-        evals=[(dtest, "test")],
+        evals=[(dval, "val")],
         callbacks=[IterTimer()],
     )
-
+    
+    ndcg = booster.eval(
+        dtest, "test"
+    )
+    
+    print(f"[XGBoost] ndcg@10 on test set: {ndcg}")
+    
 if __name__ == "__main__":
     try:
         main()
