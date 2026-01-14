@@ -1,6 +1,7 @@
 import argparse
 import time
 import sys
+from typing import Optional
 import xgboost as xgb
 import numpy as np
 
@@ -49,21 +50,22 @@ def main():
     p.add_argument("--config", required=True, type=str)
     p.add_argument("--train", required=True, type=str)
     p.add_argument("--val", required=True, type=str)
-    p.add_argument("--test", required=True, type=str)
+    p.add_argument("--test", required=False, type=Optional[str], default=None)
     p.add_argument("--objective", default="reg:squarederror")
     p.add_argument("--num_threads", type=int, default=8)
     p.add_argument("--learning_rate", type=float, default=0.05)
     p.add_argument("--min_child_weight", type=float, default=1.0)
     p.add_argument("--num_round", type=int, default=100)
-    p.add_argument("--eval", type=str, default="l2")
+    p.add_argument("--eval", type=str, default="rmse")
 
     args = p.parse_args()
 
     config = load_xgb_conf(args.config)
 
-    dtrain = xgb.DMatrix(args.train)
-    dval = xgb.DMatrix(args.val)
-    dtest  = xgb.DMatrix(args.test)
+    dtrain = xgb.DMatrix(f'{args.train}')
+    dval = xgb.DMatrix(f'{args.val}')
+    if args.test:
+        dtest  = xgb.DMatrix(f'{args.test}')
 
     params = {
         "objective": args.objective,
@@ -87,11 +89,12 @@ def main():
         callbacks=[IterTimer()],
     )
     
-    ndcg = booster.eval(
-        dtest, "test"
-    )
-    
-    print(f"[XGBoost] ndcg@10 on test set: {ndcg}")
+    if args.test:
+        ndcg = booster.eval(
+            dtest, "test"
+        )
+        
+        print(f"[XGBoost] ndcg@10 on test set: {ndcg}")
     
 if __name__ == "__main__":
     try:

@@ -7,14 +7,15 @@ set -o pipefail
 LIGHTGBM_BIN=../LightGBM/lightgbm
 DATASET=mslr
 TRAIN_SET=data/${DATASET}.train
+VAL_SET=data/${DATASET}.val
 TEST_SET=data/${DATASET}.test
 SPARSE=false
 RESULTS_FOLDER=results/${DATASET}
 
 # Common model config
-OBJECTIVE=regression
-OBJECTIVE_XGB=reg:squarederror
-NTHREADS=8
+OBJECTIVE=lambdarank
+OBJECTIVE_XGB=rank:ndcg
+NTHREADS=1
 
 MIN_DATA=1
 LR=0.05
@@ -60,7 +61,7 @@ for config in "${LGB_FILES[@]}"; do
   if $LIGHTGBM_BIN \
     config=$config \
     data=$TRAIN_SET \
-    valid=$TEST_SET \
+    valid=$VAL_SET \
     objective=$OBJECTIVE \
     num_threads=$NTHREADS \
     min_data_in_leaf=$MIN_DATA \
@@ -69,8 +70,10 @@ for config in "${LGB_FILES[@]}"; do
     num_round=$ROUNDS \
     tree_learner=$LEARNER \
     is_sparse=$SPARSE \
+    metric=ndcg \
+    ndcg_eval_at=1,3,5,10 \
     2>&1 | tee "$log_file"; then
-    echo "✓ $config_name completed successfully"
+    echo "✓ $config_name trained successfully"
   else
     echo "✗ $config_name FAILED with exit code $?"
   fi
@@ -98,13 +101,15 @@ for config in "${XGB_FILES[@]}"; do
   # Run with error handling
   if python xgb_train.py \
     --config "$config" \
-    --train "$TRAIN_SET?format=libsvm" \
-    --test "$TEST_SET?format=libsvm" \
+    --train "data/train.txt?format=libsvm" \
+    --val "data/vali.txt?format=libsvm" \
+    --test "data/test.txt?format=libsvm" \
     --objective "$OBJECTIVE_XGB" \
     --num_threads "$NTHREADS" \
     --learning_rate "$LR" \
     --min_child_weight "$MIN_HESSIAN" \
     --num_round "$ROUNDS" \
+    --eval "ndcg" \
     2>&1 | tee "$log_file"; then
     echo "✓ $config_name completed successfully"
   else

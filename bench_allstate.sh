@@ -69,6 +69,7 @@ for config in "${LGB_FILES[@]}"; do
     num_round=$ROUNDS \
     tree_learner=$LEARNER \
     is_sparse=$SPARSE \
+    metric=l2 \
     2>&1 | tee "$log_file"; then
     echo "✓ $config_name completed successfully"
   else
@@ -99,7 +100,7 @@ for config in "${XGB_FILES[@]}"; do
   if python xgb_train.py \
     --config "$config" \
     --train "$TRAIN_SET?format=libsvm" \
-    --test "$TEST_SET?format=libsvm" \
+    --val "$TEST_SET?format=libsvm" \
     --objective "$OBJECTIVE_XGB" \
     --num_threads "$NTHREADS" \
     --learning_rate "$LR" \
