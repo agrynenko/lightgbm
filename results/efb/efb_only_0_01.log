@@ -1,0 +1,509 @@
+[LightGBM] [Info] Finished loading parameters
+[LightGBM] [Info] Loading query boundaries...
+[LightGBM] [Info] Loading query boundaries...
+[LightGBM] [Info] Finished loading data in 17.799200 seconds
+[LightGBM] [Info] Total Bins 7375
+[LightGBM] [Info] Number of data: 2270296, number of used features: 136
+[LightGBM] [Info] Finished initializing training
+[LightGBM] [Info] Started training...
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:1, valid_1 ndcg@1 : 0.405448
+[LightGBM] [Info] Iteration:1, valid_1 ndcg@5 : 0.415815
+[LightGBM] [Info] Iteration:1, valid_1 ndcg@10 : 0.438495
+[LightGBM] [Info] 3.486279 seconds elapsed, finished iteration 1
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:2, valid_1 ndcg@1 : 0.434144
+[LightGBM] [Info] Iteration:2, valid_1 ndcg@5 : 0.434386
+[LightGBM] [Info] Iteration:2, valid_1 ndcg@10 : 0.455393
+[LightGBM] [Info] 6.888722 seconds elapsed, finished iteration 2
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:3, valid_1 ndcg@1 : 0.444269
+[LightGBM] [Info] Iteration:3, valid_1 ndcg@5 : 0.442866
+[LightGBM] [Info] Iteration:3, valid_1 ndcg@10 : 0.46188
+[LightGBM] [Info] 10.230226 seconds elapsed, finished iteration 3
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:4, valid_1 ndcg@1 : 0.454615
+[LightGBM] [Info] Iteration:4, valid_1 ndcg@5 : 0.447267
+[LightGBM] [Info] Iteration:4, valid_1 ndcg@10 : 0.465106
+[LightGBM] [Info] 13.585598 seconds elapsed, finished iteration 4
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:5, valid_1 ndcg@1 : 0.456605
+[LightGBM] [Info] Iteration:5, valid_1 ndcg@5 : 0.450118
+[LightGBM] [Info] Iteration:5, valid_1 ndcg@10 : 0.467393
+[LightGBM] [Info] 16.919378 seconds elapsed, finished iteration 5
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:6, valid_1 ndcg@1 : 0.457989
+[LightGBM] [Info] Iteration:6, valid_1 ndcg@5 : 0.451819
+[LightGBM] [Info] Iteration:6, valid_1 ndcg@10 : 0.469281
+[LightGBM] [Info] 20.261481 seconds elapsed, finished iteration 6
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:7, valid_1 ndcg@1 : 0.461896
+[LightGBM] [Info] Iteration:7, valid_1 ndcg@5 : 0.454711
+[LightGBM] [Info] Iteration:7, valid_1 ndcg@10 : 0.47162
+[LightGBM] [Info] 23.660618 seconds elapsed, finished iteration 7
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:8, valid_1 ndcg@1 : 0.463142
+[LightGBM] [Info] Iteration:8, valid_1 ndcg@5 : 0.454593
+[LightGBM] [Info] Iteration:8, valid_1 ndcg@10 : 0.473006
+[LightGBM] [Info] 27.031324 seconds elapsed, finished iteration 8
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:9, valid_1 ndcg@1 : 0.465471
+[LightGBM] [Info] Iteration:9, valid_1 ndcg@5 : 0.45727
+[LightGBM] [Info] Iteration:9, valid_1 ndcg@10 : 0.475152
+[LightGBM] [Info] 30.377420 seconds elapsed, finished iteration 9
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:10, valid_1 ndcg@1 : 0.466522
+[LightGBM] [Info] Iteration:10, valid_1 ndcg@5 : 0.459337
+[LightGBM] [Info] Iteration:10, valid_1 ndcg@10 : 0.477235
+[LightGBM] [Info] 33.770956 seconds elapsed, finished iteration 10
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:11, valid_1 ndcg@1 : 0.470288
+[LightGBM] [Info] Iteration:11, valid_1 ndcg@5 : 0.460478
+[LightGBM] [Info] Iteration:11, valid_1 ndcg@10 : 0.478028
+[LightGBM] [Info] 37.215935 seconds elapsed, finished iteration 11
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:12, valid_1 ndcg@1 : 0.471835
+[LightGBM] [Info] Iteration:12, valid_1 ndcg@5 : 0.461963
+[LightGBM] [Info] Iteration:12, valid_1 ndcg@10 : 0.479442
+[LightGBM] [Info] 40.565421 seconds elapsed, finished iteration 12
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:13, valid_1 ndcg@1 : 0.470824
+[LightGBM] [Info] Iteration:13, valid_1 ndcg@5 : 0.462484
+[LightGBM] [Info] Iteration:13, valid_1 ndcg@10 : 0.480482
+[LightGBM] [Info] 43.968655 seconds elapsed, finished iteration 13
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:14, valid_1 ndcg@1 : 0.472279
+[LightGBM] [Info] Iteration:14, valid_1 ndcg@5 : 0.463141
+[LightGBM] [Info] Iteration:14, valid_1 ndcg@10 : 0.481355
+[LightGBM] [Info] 47.459444 seconds elapsed, finished iteration 14
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:15, valid_1 ndcg@1 : 0.472711
+[LightGBM] [Info] Iteration:15, valid_1 ndcg@5 : 0.463341
+[LightGBM] [Info] Iteration:15, valid_1 ndcg@10 : 0.482001
+[LightGBM] [Info] 50.866490 seconds elapsed, finished iteration 15
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:16, valid_1 ndcg@1 : 0.473336
+[LightGBM] [Info] Iteration:16, valid_1 ndcg@5 : 0.464455
+[LightGBM] [Info] Iteration:16, valid_1 ndcg@10 : 0.482801
+[LightGBM] [Info] 54.209314 seconds elapsed, finished iteration 16
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:17, valid_1 ndcg@1 : 0.474538
+[LightGBM] [Info] Iteration:17, valid_1 ndcg@5 : 0.465351
+[LightGBM] [Info] Iteration:17, valid_1 ndcg@10 : 0.483824
+[LightGBM] [Info] 57.642483 seconds elapsed, finished iteration 17
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:18, valid_1 ndcg@1 : 0.477216
+[LightGBM] [Info] Iteration:18, valid_1 ndcg@5 : 0.466056
+[LightGBM] [Info] Iteration:18, valid_1 ndcg@10 : 0.484674
+[LightGBM] [Info] 61.121101 seconds elapsed, finished iteration 18
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:19, valid_1 ndcg@1 : 0.477729
+[LightGBM] [Info] Iteration:19, valid_1 ndcg@5 : 0.467013
+[LightGBM] [Info] Iteration:19, valid_1 ndcg@10 : 0.485333
+[LightGBM] [Info] 64.502232 seconds elapsed, finished iteration 19
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:20, valid_1 ndcg@1 : 0.479303
+[LightGBM] [Info] Iteration:20, valid_1 ndcg@5 : 0.468048
+[LightGBM] [Info] Iteration:20, valid_1 ndcg@10 : 0.486345
+[LightGBM] [Info] 67.904401 seconds elapsed, finished iteration 20
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:21, valid_1 ndcg@1 : 0.478107
+[LightGBM] [Info] Iteration:21, valid_1 ndcg@5 : 0.467632
+[LightGBM] [Info] Iteration:21, valid_1 ndcg@10 : 0.485971
+[LightGBM] [Info] 71.274155 seconds elapsed, finished iteration 21
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=20
+[LightGBM] [Info] Iteration:22, valid_1 ndcg@1 : 0.481658
+[LightGBM] [Info] Iteration:22, valid_1 ndcg@5 : 0.468718
+[LightGBM] [Info] Iteration:22, valid_1 ndcg@10 : 0.48693
+[LightGBM] [Info] 74.637158 seconds elapsed, finished iteration 22
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:23, valid_1 ndcg@1 : 0.481558
+[LightGBM] [Info] Iteration:23, valid_1 ndcg@5 : 0.469137
+[LightGBM] [Info] Iteration:23, valid_1 ndcg@10 : 0.487666
+[LightGBM] [Info] 78.058604 seconds elapsed, finished iteration 23
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:24, valid_1 ndcg@1 : 0.483423
+[LightGBM] [Info] Iteration:24, valid_1 ndcg@5 : 0.470843
+[LightGBM] [Info] Iteration:24, valid_1 ndcg@10 : 0.4886
+[LightGBM] [Info] 81.437591 seconds elapsed, finished iteration 24
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:25, valid_1 ndcg@1 : 0.485172
+[LightGBM] [Info] Iteration:25, valid_1 ndcg@5 : 0.471596
+[LightGBM] [Info] Iteration:25, valid_1 ndcg@10 : 0.489525
+[LightGBM] [Info] 84.827100 seconds elapsed, finished iteration 25
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:26, valid_1 ndcg@1 : 0.486569
+[LightGBM] [Info] Iteration:26, valid_1 ndcg@5 : 0.472084
+[LightGBM] [Info] Iteration:26, valid_1 ndcg@10 : 0.490599
+[LightGBM] [Info] 88.199207 seconds elapsed, finished iteration 26
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:27, valid_1 ndcg@1 : 0.488093
+[LightGBM] [Info] Iteration:27, valid_1 ndcg@5 : 0.473318
+[LightGBM] [Info] Iteration:27, valid_1 ndcg@10 : 0.491328
+[LightGBM] [Info] 91.561102 seconds elapsed, finished iteration 27
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:28, valid_1 ndcg@1 : 0.48772
+[LightGBM] [Info] Iteration:28, valid_1 ndcg@5 : 0.4734
+[LightGBM] [Info] Iteration:28, valid_1 ndcg@10 : 0.491496
+[LightGBM] [Info] 94.932366 seconds elapsed, finished iteration 28
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:29, valid_1 ndcg@1 : 0.489102
+[LightGBM] [Info] Iteration:29, valid_1 ndcg@5 : 0.474067
+[LightGBM] [Info] Iteration:29, valid_1 ndcg@10 : 0.492058
+[LightGBM] [Info] 98.320751 seconds elapsed, finished iteration 29
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:30, valid_1 ndcg@1 : 0.490215
+[LightGBM] [Info] Iteration:30, valid_1 ndcg@5 : 0.474583
+[LightGBM] [Info] Iteration:30, valid_1 ndcg@10 : 0.492823
+[LightGBM] [Info] 101.728819 seconds elapsed, finished iteration 30
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:31, valid_1 ndcg@1 : 0.490339
+[LightGBM] [Info] Iteration:31, valid_1 ndcg@5 : 0.475206
+[LightGBM] [Info] Iteration:31, valid_1 ndcg@10 : 0.493378
+[LightGBM] [Info] 105.068571 seconds elapsed, finished iteration 31
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:32, valid_1 ndcg@1 : 0.490814
+[LightGBM] [Info] Iteration:32, valid_1 ndcg@5 : 0.475474
+[LightGBM] [Info] Iteration:32, valid_1 ndcg@10 : 0.493813
+[LightGBM] [Info] 108.396310 seconds elapsed, finished iteration 32
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:33, valid_1 ndcg@1 : 0.491157
+[LightGBM] [Info] Iteration:33, valid_1 ndcg@5 : 0.475915
+[LightGBM] [Info] Iteration:33, valid_1 ndcg@10 : 0.494021
+[LightGBM] [Info] 111.704889 seconds elapsed, finished iteration 33
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:34, valid_1 ndcg@1 : 0.492554
+[LightGBM] [Info] Iteration:34, valid_1 ndcg@5 : 0.477259
+[LightGBM] [Info] Iteration:34, valid_1 ndcg@10 : 0.495188
+[LightGBM] [Info] 115.120726 seconds elapsed, finished iteration 34
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:35, valid_1 ndcg@1 : 0.492489
+[LightGBM] [Info] Iteration:35, valid_1 ndcg@5 : 0.477689
+[LightGBM] [Info] Iteration:35, valid_1 ndcg@10 : 0.495543
+[LightGBM] [Info] 118.516190 seconds elapsed, finished iteration 35
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:36, valid_1 ndcg@1 : 0.492278
+[LightGBM] [Info] Iteration:36, valid_1 ndcg@5 : 0.478106
+[LightGBM] [Info] Iteration:36, valid_1 ndcg@10 : 0.496077
+[LightGBM] [Info] 121.925668 seconds elapsed, finished iteration 36
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:37, valid_1 ndcg@1 : 0.49258
+[LightGBM] [Info] Iteration:37, valid_1 ndcg@5 : 0.4787
+[LightGBM] [Info] Iteration:37, valid_1 ndcg@10 : 0.496781
+[LightGBM] [Info] 125.307487 seconds elapsed, finished iteration 37
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:38, valid_1 ndcg@1 : 0.492323
+[LightGBM] [Info] Iteration:38, valid_1 ndcg@5 : 0.479306
+[LightGBM] [Info] Iteration:38, valid_1 ndcg@10 : 0.497227
+[LightGBM] [Info] 128.699232 seconds elapsed, finished iteration 38
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:39, valid_1 ndcg@1 : 0.492994
+[LightGBM] [Info] Iteration:39, valid_1 ndcg@5 : 0.479793
+[LightGBM] [Info] Iteration:39, valid_1 ndcg@10 : 0.497636
+[LightGBM] [Info] 132.088172 seconds elapsed, finished iteration 39
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:40, valid_1 ndcg@1 : 0.493767
+[LightGBM] [Info] Iteration:40, valid_1 ndcg@5 : 0.480402
+[LightGBM] [Info] Iteration:40, valid_1 ndcg@10 : 0.498261
+[LightGBM] [Info] 135.403582 seconds elapsed, finished iteration 40
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:41, valid_1 ndcg@1 : 0.495274
+[LightGBM] [Info] Iteration:41, valid_1 ndcg@5 : 0.481143
+[LightGBM] [Info] Iteration:41, valid_1 ndcg@10 : 0.498926
+[LightGBM] [Info] 138.727036 seconds elapsed, finished iteration 41
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:42, valid_1 ndcg@1 : 0.496889
+[LightGBM] [Info] Iteration:42, valid_1 ndcg@5 : 0.4814
+[LightGBM] [Info] Iteration:42, valid_1 ndcg@10 : 0.499633
+[LightGBM] [Info] 142.039429 seconds elapsed, finished iteration 42
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:43, valid_1 ndcg@1 : 0.497265
+[LightGBM] [Info] Iteration:43, valid_1 ndcg@5 : 0.48186
+[LightGBM] [Info] Iteration:43, valid_1 ndcg@10 : 0.500092
+[LightGBM] [Info] 145.315074 seconds elapsed, finished iteration 43
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:44, valid_1 ndcg@1 : 0.496403
+[LightGBM] [Info] Iteration:44, valid_1 ndcg@5 : 0.481843
+[LightGBM] [Info] Iteration:44, valid_1 ndcg@10 : 0.500346
+[LightGBM] [Info] 148.686307 seconds elapsed, finished iteration 44
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:45, valid_1 ndcg@1 : 0.49731
+[LightGBM] [Info] Iteration:45, valid_1 ndcg@5 : 0.482044
+[LightGBM] [Info] Iteration:45, valid_1 ndcg@10 : 0.500881
+[LightGBM] [Info] 152.092681 seconds elapsed, finished iteration 45
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:46, valid_1 ndcg@1 : 0.497223
+[LightGBM] [Info] Iteration:46, valid_1 ndcg@5 : 0.482551
+[LightGBM] [Info] Iteration:46, valid_1 ndcg@10 : 0.501442
+[LightGBM] [Info] 155.336369 seconds elapsed, finished iteration 46
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:47, valid_1 ndcg@1 : 0.497254
+[LightGBM] [Info] Iteration:47, valid_1 ndcg@5 : 0.483047
+[LightGBM] [Info] Iteration:47, valid_1 ndcg@10 : 0.502001
+[LightGBM] [Info] 158.629703 seconds elapsed, finished iteration 47
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:48, valid_1 ndcg@1 : 0.498555
+[LightGBM] [Info] Iteration:48, valid_1 ndcg@5 : 0.483717
+[LightGBM] [Info] Iteration:48, valid_1 ndcg@10 : 0.502689
+[LightGBM] [Info] 161.902331 seconds elapsed, finished iteration 48
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:49, valid_1 ndcg@1 : 0.499258
+[LightGBM] [Info] Iteration:49, valid_1 ndcg@5 : 0.484364
+[LightGBM] [Info] Iteration:49, valid_1 ndcg@10 : 0.503016
+[LightGBM] [Info] 165.154298 seconds elapsed, finished iteration 49
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=22
+[LightGBM] [Info] Iteration:50, valid_1 ndcg@1 : 0.500143
+[LightGBM] [Info] Iteration:50, valid_1 ndcg@5 : 0.485055
+[LightGBM] [Info] Iteration:50, valid_1 ndcg@10 : 0.503631
+[LightGBM] [Info] 168.472978 seconds elapsed, finished iteration 50
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:51, valid_1 ndcg@1 : 0.500998
+[LightGBM] [Info] Iteration:51, valid_1 ndcg@5 : 0.485228
+[LightGBM] [Info] Iteration:51, valid_1 ndcg@10 : 0.503759
+[LightGBM] [Info] 171.750462 seconds elapsed, finished iteration 51
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:52, valid_1 ndcg@1 : 0.499399
+[LightGBM] [Info] Iteration:52, valid_1 ndcg@5 : 0.485241
+[LightGBM] [Info] Iteration:52, valid_1 ndcg@10 : 0.503884
+[LightGBM] [Info] 175.141459 seconds elapsed, finished iteration 52
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=20
+[LightGBM] [Info] Iteration:53, valid_1 ndcg@1 : 0.502392
+[LightGBM] [Info] Iteration:53, valid_1 ndcg@5 : 0.486205
+[LightGBM] [Info] Iteration:53, valid_1 ndcg@10 : 0.504647
+[LightGBM] [Info] 178.432267 seconds elapsed, finished iteration 53
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:54, valid_1 ndcg@1 : 0.502725
+[LightGBM] [Info] Iteration:54, valid_1 ndcg@5 : 0.486529
+[LightGBM] [Info] Iteration:54, valid_1 ndcg@10 : 0.504738
+[LightGBM] [Info] 181.770552 seconds elapsed, finished iteration 54
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:55, valid_1 ndcg@1 : 0.502536
+[LightGBM] [Info] Iteration:55, valid_1 ndcg@5 : 0.486881
+[LightGBM] [Info] Iteration:55, valid_1 ndcg@10 : 0.505239
+[LightGBM] [Info] 185.107493 seconds elapsed, finished iteration 55
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:56, valid_1 ndcg@1 : 0.501921
+[LightGBM] [Info] Iteration:56, valid_1 ndcg@5 : 0.487093
+[LightGBM] [Info] Iteration:56, valid_1 ndcg@10 : 0.505556
+[LightGBM] [Info] 188.352038 seconds elapsed, finished iteration 56
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:57, valid_1 ndcg@1 : 0.501595
+[LightGBM] [Info] Iteration:57, valid_1 ndcg@5 : 0.487191
+[LightGBM] [Info] Iteration:57, valid_1 ndcg@10 : 0.505766
+[LightGBM] [Info] 191.598188 seconds elapsed, finished iteration 57
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:58, valid_1 ndcg@1 : 0.502587
+[LightGBM] [Info] Iteration:58, valid_1 ndcg@5 : 0.487602
+[LightGBM] [Info] Iteration:58, valid_1 ndcg@10 : 0.506148
+[LightGBM] [Info] 194.968926 seconds elapsed, finished iteration 58
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:59, valid_1 ndcg@1 : 0.501917
+[LightGBM] [Info] Iteration:59, valid_1 ndcg@5 : 0.488082
+[LightGBM] [Info] Iteration:59, valid_1 ndcg@10 : 0.506364
+[LightGBM] [Info] 198.232452 seconds elapsed, finished iteration 59
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:60, valid_1 ndcg@1 : 0.502426
+[LightGBM] [Info] Iteration:60, valid_1 ndcg@5 : 0.488636
+[LightGBM] [Info] Iteration:60, valid_1 ndcg@10 : 0.506838
+[LightGBM] [Info] 201.446459 seconds elapsed, finished iteration 60
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=20
+[LightGBM] [Info] Iteration:61, valid_1 ndcg@1 : 0.502531
+[LightGBM] [Info] Iteration:61, valid_1 ndcg@5 : 0.488565
+[LightGBM] [Info] Iteration:61, valid_1 ndcg@10 : 0.507229
+[LightGBM] [Info] 204.668902 seconds elapsed, finished iteration 61
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:62, valid_1 ndcg@1 : 0.503078
+[LightGBM] [Info] Iteration:62, valid_1 ndcg@5 : 0.488827
+[LightGBM] [Info] Iteration:62, valid_1 ndcg@10 : 0.507459
+[LightGBM] [Info] 207.996864 seconds elapsed, finished iteration 62
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=21
+[LightGBM] [Info] Iteration:63, valid_1 ndcg@1 : 0.502839
+[LightGBM] [Info] Iteration:63, valid_1 ndcg@5 : 0.48879
+[LightGBM] [Info] Iteration:63, valid_1 ndcg@10 : 0.507743
+[LightGBM] [Info] 211.199657 seconds elapsed, finished iteration 63
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:64, valid_1 ndcg@1 : 0.503227
+[LightGBM] [Info] Iteration:64, valid_1 ndcg@5 : 0.489068
+[LightGBM] [Info] Iteration:64, valid_1 ndcg@10 : 0.507889
+[LightGBM] [Info] 214.405649 seconds elapsed, finished iteration 64
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:65, valid_1 ndcg@1 : 0.504658
+[LightGBM] [Info] Iteration:65, valid_1 ndcg@5 : 0.489509
+[LightGBM] [Info] Iteration:65, valid_1 ndcg@10 : 0.508214
+[LightGBM] [Info] 217.755844 seconds elapsed, finished iteration 65
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:66, valid_1 ndcg@1 : 0.50433
+[LightGBM] [Info] Iteration:66, valid_1 ndcg@5 : 0.490101
+[LightGBM] [Info] Iteration:66, valid_1 ndcg@10 : 0.508576
+[LightGBM] [Info] 221.021404 seconds elapsed, finished iteration 66
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=23
+[LightGBM] [Info] Iteration:67, valid_1 ndcg@1 : 0.504094
+[LightGBM] [Info] Iteration:67, valid_1 ndcg@5 : 0.490006
+[LightGBM] [Info] Iteration:67, valid_1 ndcg@10 : 0.508654
+[LightGBM] [Info] 224.279705 seconds elapsed, finished iteration 67
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:68, valid_1 ndcg@1 : 0.504297
+[LightGBM] [Info] Iteration:68, valid_1 ndcg@5 : 0.490905
+[LightGBM] [Info] Iteration:68, valid_1 ndcg@10 : 0.509022
+[LightGBM] [Info] 227.736475 seconds elapsed, finished iteration 68
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:69, valid_1 ndcg@1 : 0.505096
+[LightGBM] [Info] Iteration:69, valid_1 ndcg@5 : 0.49122
+[LightGBM] [Info] Iteration:69, valid_1 ndcg@10 : 0.509316
+[LightGBM] [Info] 231.117450 seconds elapsed, finished iteration 69
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:70, valid_1 ndcg@1 : 0.503681
+[LightGBM] [Info] Iteration:70, valid_1 ndcg@5 : 0.491008
+[LightGBM] [Info] Iteration:70, valid_1 ndcg@10 : 0.509217
+[LightGBM] [Info] 234.541726 seconds elapsed, finished iteration 70
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:71, valid_1 ndcg@1 : 0.505738
+[LightGBM] [Info] Iteration:71, valid_1 ndcg@5 : 0.49143
+[LightGBM] [Info] Iteration:71, valid_1 ndcg@10 : 0.509526
+[LightGBM] [Info] 237.731681 seconds elapsed, finished iteration 71
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:72, valid_1 ndcg@1 : 0.505843
+[LightGBM] [Info] Iteration:72, valid_1 ndcg@5 : 0.491393
+[LightGBM] [Info] Iteration:72, valid_1 ndcg@10 : 0.509631
+[LightGBM] [Info] 241.030646 seconds elapsed, finished iteration 72
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:73, valid_1 ndcg@1 : 0.505845
+[LightGBM] [Info] Iteration:73, valid_1 ndcg@5 : 0.492072
+[LightGBM] [Info] Iteration:73, valid_1 ndcg@10 : 0.509835
+[LightGBM] [Info] 244.428392 seconds elapsed, finished iteration 73
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=23
+[LightGBM] [Info] Iteration:74, valid_1 ndcg@1 : 0.50626
+[LightGBM] [Info] Iteration:74, valid_1 ndcg@5 : 0.492077
+[LightGBM] [Info] Iteration:74, valid_1 ndcg@10 : 0.50998
+[LightGBM] [Info] 247.627890 seconds elapsed, finished iteration 74
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:75, valid_1 ndcg@1 : 0.505553
+[LightGBM] [Info] Iteration:75, valid_1 ndcg@5 : 0.492062
+[LightGBM] [Info] Iteration:75, valid_1 ndcg@10 : 0.510026
+[LightGBM] [Info] 250.913448 seconds elapsed, finished iteration 75
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:76, valid_1 ndcg@1 : 0.505381
+[LightGBM] [Info] Iteration:76, valid_1 ndcg@5 : 0.492389
+[LightGBM] [Info] Iteration:76, valid_1 ndcg@10 : 0.510092
+[LightGBM] [Info] 254.230545 seconds elapsed, finished iteration 76
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:77, valid_1 ndcg@1 : 0.506095
+[LightGBM] [Info] Iteration:77, valid_1 ndcg@5 : 0.492656
+[LightGBM] [Info] Iteration:77, valid_1 ndcg@10 : 0.510549
+[LightGBM] [Info] 257.420593 seconds elapsed, finished iteration 77
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:78, valid_1 ndcg@1 : 0.507305
+[LightGBM] [Info] Iteration:78, valid_1 ndcg@5 : 0.493043
+[LightGBM] [Info] Iteration:78, valid_1 ndcg@10 : 0.510828
+[LightGBM] [Info] 260.554820 seconds elapsed, finished iteration 78
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:79, valid_1 ndcg@1 : 0.507332
+[LightGBM] [Info] Iteration:79, valid_1 ndcg@5 : 0.493224
+[LightGBM] [Info] Iteration:79, valid_1 ndcg@10 : 0.511098
+[LightGBM] [Info] 263.807401 seconds elapsed, finished iteration 79
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:80, valid_1 ndcg@1 : 0.507373
+[LightGBM] [Info] Iteration:80, valid_1 ndcg@5 : 0.493238
+[LightGBM] [Info] Iteration:80, valid_1 ndcg@10 : 0.511337
+[LightGBM] [Info] 267.073144 seconds elapsed, finished iteration 80
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:81, valid_1 ndcg@1 : 0.508193
+[LightGBM] [Info] Iteration:81, valid_1 ndcg@5 : 0.493374
+[LightGBM] [Info] Iteration:81, valid_1 ndcg@10 : 0.51163
+[LightGBM] [Info] 270.431735 seconds elapsed, finished iteration 81
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:82, valid_1 ndcg@1 : 0.508174
+[LightGBM] [Info] Iteration:82, valid_1 ndcg@5 : 0.493485
+[LightGBM] [Info] Iteration:82, valid_1 ndcg@10 : 0.511588
+[LightGBM] [Info] 273.756077 seconds elapsed, finished iteration 82
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:83, valid_1 ndcg@1 : 0.508793
+[LightGBM] [Info] Iteration:83, valid_1 ndcg@5 : 0.493888
+[LightGBM] [Info] Iteration:83, valid_1 ndcg@10 : 0.511996
+[LightGBM] [Info] 277.166628 seconds elapsed, finished iteration 83
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:84, valid_1 ndcg@1 : 0.508732
+[LightGBM] [Info] Iteration:84, valid_1 ndcg@5 : 0.494211
+[LightGBM] [Info] Iteration:84, valid_1 ndcg@10 : 0.512247
+[LightGBM] [Info] 280.454401 seconds elapsed, finished iteration 84
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=20
+[LightGBM] [Info] Iteration:85, valid_1 ndcg@1 : 0.509981
+[LightGBM] [Info] Iteration:85, valid_1 ndcg@5 : 0.494756
+[LightGBM] [Info] Iteration:85, valid_1 ndcg@10 : 0.512671
+[LightGBM] [Info] 283.602852 seconds elapsed, finished iteration 85
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:86, valid_1 ndcg@1 : 0.509704
+[LightGBM] [Info] Iteration:86, valid_1 ndcg@5 : 0.49508
+[LightGBM] [Info] Iteration:86, valid_1 ndcg@10 : 0.51272
+[LightGBM] [Info] 286.882977 seconds elapsed, finished iteration 86
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=21
+[LightGBM] [Info] Iteration:87, valid_1 ndcg@1 : 0.509163
+[LightGBM] [Info] Iteration:87, valid_1 ndcg@5 : 0.495298
+[LightGBM] [Info] Iteration:87, valid_1 ndcg@10 : 0.512819
+[LightGBM] [Info] 289.912628 seconds elapsed, finished iteration 87
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:88, valid_1 ndcg@1 : 0.50811
+[LightGBM] [Info] Iteration:88, valid_1 ndcg@5 : 0.495276
+[LightGBM] [Info] Iteration:88, valid_1 ndcg@10 : 0.512785
+[LightGBM] [Info] 293.001513 seconds elapsed, finished iteration 88
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=24
+[LightGBM] [Info] Iteration:89, valid_1 ndcg@1 : 0.508731
+[LightGBM] [Info] Iteration:89, valid_1 ndcg@5 : 0.495525
+[LightGBM] [Info] Iteration:89, valid_1 ndcg@10 : 0.513269
+[LightGBM] [Info] 295.963623 seconds elapsed, finished iteration 89
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=15
+[LightGBM] [Info] Iteration:90, valid_1 ndcg@1 : 0.508859
+[LightGBM] [Info] Iteration:90, valid_1 ndcg@5 : 0.495573
+[LightGBM] [Info] Iteration:90, valid_1 ndcg@10 : 0.513389
+[LightGBM] [Info] 299.077693 seconds elapsed, finished iteration 90
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=21
+[LightGBM] [Info] Iteration:91, valid_1 ndcg@1 : 0.509903
+[LightGBM] [Info] Iteration:91, valid_1 ndcg@5 : 0.495954
+[LightGBM] [Info] Iteration:91, valid_1 ndcg@10 : 0.51373
+[LightGBM] [Info] 302.263930 seconds elapsed, finished iteration 91
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=17
+[LightGBM] [Info] Iteration:92, valid_1 ndcg@1 : 0.509161
+[LightGBM] [Info] Iteration:92, valid_1 ndcg@5 : 0.495935
+[LightGBM] [Info] Iteration:92, valid_1 ndcg@10 : 0.513809
+[LightGBM] [Info] 305.447756 seconds elapsed, finished iteration 92
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:93, valid_1 ndcg@1 : 0.508551
+[LightGBM] [Info] Iteration:93, valid_1 ndcg@5 : 0.496071
+[LightGBM] [Info] Iteration:93, valid_1 ndcg@10 : 0.514063
+[LightGBM] [Info] 308.635448 seconds elapsed, finished iteration 93
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:94, valid_1 ndcg@1 : 0.508948
+[LightGBM] [Info] Iteration:94, valid_1 ndcg@5 : 0.496307
+[LightGBM] [Info] Iteration:94, valid_1 ndcg@10 : 0.514409
+[LightGBM] [Info] 311.766874 seconds elapsed, finished iteration 94
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:95, valid_1 ndcg@1 : 0.509469
+[LightGBM] [Info] Iteration:95, valid_1 ndcg@5 : 0.496358
+[LightGBM] [Info] Iteration:95, valid_1 ndcg@10 : 0.514547
+[LightGBM] [Info] 314.821241 seconds elapsed, finished iteration 95
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=16
+[LightGBM] [Info] Iteration:96, valid_1 ndcg@1 : 0.509537
+[LightGBM] [Info] Iteration:96, valid_1 ndcg@5 : 0.49659
+[LightGBM] [Info] Iteration:96, valid_1 ndcg@10 : 0.514626
+[LightGBM] [Info] 317.970595 seconds elapsed, finished iteration 96
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=19
+[LightGBM] [Info] Iteration:97, valid_1 ndcg@1 : 0.509408
+[LightGBM] [Info] Iteration:97, valid_1 ndcg@5 : 0.496523
+[LightGBM] [Info] Iteration:97, valid_1 ndcg@10 : 0.514788
+[LightGBM] [Info] 321.330970 seconds elapsed, finished iteration 97
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:98, valid_1 ndcg@1 : 0.510296
+[LightGBM] [Info] Iteration:98, valid_1 ndcg@5 : 0.496717
+[LightGBM] [Info] Iteration:98, valid_1 ndcg@10 : 0.514933
+[LightGBM] [Info] 324.408588 seconds elapsed, finished iteration 98
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=22
+[LightGBM] [Info] Iteration:99, valid_1 ndcg@1 : 0.511378
+[LightGBM] [Info] Iteration:99, valid_1 ndcg@5 : 0.497007
+[LightGBM] [Info] Iteration:99, valid_1 ndcg@10 : 0.515055
+[LightGBM] [Info] 327.499000 seconds elapsed, finished iteration 99
+[LightGBM] [Info] Trained a tree with leaves=255 and max_depth=18
+[LightGBM] [Info] Iteration:100, valid_1 ndcg@1 : 0.511303
+[LightGBM] [Info] Iteration:100, valid_1 ndcg@5 : 0.497083
+[LightGBM] [Info] Iteration:100, valid_1 ndcg@10 : 0.515069
+[LightGBM] [Info] 330.742810 seconds elapsed, finished iteration 100
+[LightGBM] [Info] Finished training
