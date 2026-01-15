@@ -69,7 +69,7 @@ for config in "${LGB_FILES[@]}"; do
     num_round=$ROUNDS \
     tree_learner=$LEARNER \
     is_sparse=$SPARSE \
-    metric=l2 \
+    metric=rmse \
     2>&1 | tee "$log_file"; then
     echo "✓ $config_name completed successfully"
   else
