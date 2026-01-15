@@ -43,3 +43,13 @@ cd build
 cmake ..
 make -j
 ```
+
+## Run Experiments
+
+Make sure to have built LightGBM and set the variable `LIGHTGBM_BIN` to its binary path.
+
+```sh
+./bench_allstate.sh # Run benchmark on Allstate dataset
+./bench_mslr.sh # Run benchmark on MSLR-WEB30K dataset
+./bench_efb.sh # Run EFB benchmark on MSLR-WEB30K dataset
+```
