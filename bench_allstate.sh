@@ -14,7 +14,7 @@ RESULTS_FOLDER=results/${DATASET}
 # Common model config
 OBJECTIVE=regression
 OBJECTIVE_XGB=reg:squarederror
-NTHREADS=8
+NTHREADS=1
 
 MIN_DATA=1
 LR=0.02
