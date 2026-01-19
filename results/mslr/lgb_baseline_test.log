@@ -1,0 +1,6 @@
+[LightGBM] [Info] Finished loading parameters
+[LightGBM] [Debug] Skipped header "tree" in file results/mslr/lgb_baseline.txt
+[LightGBM] [Debug] Skipped header "tree" in file results/mslr/lgb_baseline.txt
+[LightGBM] [Info] Finished loading 100 models
+[LightGBM] [Info] Finished initializing prediction
+[LightGBM] [Info] Finished prediction

@@ -1,204 +1,204 @@
 [XGBoost] training start
-[XGBoost] iteration 1 took 69.793765 seconds
-[0]	val-ndcg:0.51369
-[XGBoost] iteration 2 took 51.064028 seconds
-[1]	val-ndcg:0.52785
-[XGBoost] iteration 3 took 59.225488 seconds
-[2]	val-ndcg:0.53011
-[XGBoost] iteration 4 took 64.595445 seconds
-[3]	val-ndcg:0.53152
-[XGBoost] iteration 5 took 64.999427 seconds
-[4]	val-ndcg:0.53250
-[XGBoost] iteration 6 took 64.473033 seconds
-[5]	val-ndcg:0.53244
-[XGBoost] iteration 7 took 64.932183 seconds
-[6]	val-ndcg:0.53461
-[XGBoost] iteration 8 took 64.157040 seconds
-[7]	val-ndcg:0.53557
-[XGBoost] iteration 9 took 63.485793 seconds
-[8]	val-ndcg:0.53608
-[XGBoost] iteration 10 took 62.564644 seconds
-[9]	val-ndcg:0.53626
-[XGBoost] iteration 11 took 64.061584 seconds
-[10]	val-ndcg:0.53689
-[XGBoost] iteration 12 took 63.977725 seconds
-[11]	val-ndcg:0.53781
-[XGBoost] iteration 13 took 63.868200 seconds
-[12]	val-ndcg:0.53816
-[XGBoost] iteration 14 took 63.992622 seconds
-[13]	val-ndcg:0.53852
-[XGBoost] iteration 15 took 63.755034 seconds
-[14]	val-ndcg:0.53928
-[XGBoost] iteration 16 took 63.741407 seconds
-[15]	val-ndcg:0.53977
-[XGBoost] iteration 17 took 63.530643 seconds
-[16]	val-ndcg:0.54023
-[XGBoost] iteration 18 took 63.604324 seconds
-[17]	val-ndcg:0.54078
-[XGBoost] iteration 19 took 63.672656 seconds
-[18]	val-ndcg:0.54114
-[XGBoost] iteration 20 took 63.638292 seconds
-[19]	val-ndcg:0.54140
-[XGBoost] iteration 21 took 63.657290 seconds
-[20]	val-ndcg:0.54163
-[XGBoost] iteration 22 took 63.608801 seconds
-[21]	val-ndcg:0.54203
-[XGBoost] iteration 23 took 63.910216 seconds
-[22]	val-ndcg:0.54254
-[XGBoost] iteration 24 took 62.928902 seconds
-[23]	val-ndcg:0.54318
-[XGBoost] iteration 25 took 63.187996 seconds
-[24]	val-ndcg:0.54390
-[XGBoost] iteration 26 took 63.117613 seconds
-[25]	val-ndcg:0.54400
-[XGBoost] iteration 27 took 63.040716 seconds
-[26]	val-ndcg:0.54442
-[XGBoost] iteration 28 took 62.902322 seconds
-[27]	val-ndcg:0.54528
-[XGBoost] iteration 29 took 63.193354 seconds
-[28]	val-ndcg:0.54573
-[XGBoost] iteration 30 took 63.092671 seconds
-[29]	val-ndcg:0.54631
-[XGBoost] iteration 31 took 63.365487 seconds
-[30]	val-ndcg:0.54682
-[XGBoost] iteration 32 took 64.104179 seconds
-[31]	val-ndcg:0.54714
-[XGBoost] iteration 33 took 65.396309 seconds
-[32]	val-ndcg:0.54776
-[XGBoost] iteration 34 took 63.153528 seconds
-[33]	val-ndcg:0.54837
-[XGBoost] iteration 35 took 63.467725 seconds
-[34]	val-ndcg:0.54869
-[XGBoost] iteration 36 took 62.988816 seconds
-[35]	val-ndcg:0.54917
-[XGBoost] iteration 37 took 63.640658 seconds
-[36]	val-ndcg:0.54950
-[XGBoost] iteration 38 took 63.204781 seconds
-[37]	val-ndcg:0.55007
-[XGBoost] iteration 39 took 62.892265 seconds
-[38]	val-ndcg:0.55049
-[XGBoost] iteration 40 took 63.670998 seconds
-[39]	val-ndcg:0.55106
-[XGBoost] iteration 41 took 63.427454 seconds
-[40]	val-ndcg:0.55128
-[XGBoost] iteration 42 took 63.625922 seconds
-[41]	val-ndcg:0.55197
-[XGBoost] iteration 43 took 62.861800 seconds
-[42]	val-ndcg:0.55230
-[XGBoost] iteration 44 took 62.065105 seconds
-[43]	val-ndcg:0.55276
-[XGBoost] iteration 45 took 62.172678 seconds
-[44]	val-ndcg:0.55288
-[XGBoost] iteration 46 took 62.488154 seconds
-[45]	val-ndcg:0.55320
-[XGBoost] iteration 47 took 63.360068 seconds
-[46]	val-ndcg:0.55341
-[XGBoost] iteration 48 took 63.340404 seconds
-[47]	val-ndcg:0.55379
-[XGBoost] iteration 49 took 62.903493 seconds
-[48]	val-ndcg:0.55395
-[XGBoost] iteration 50 took 63.202770 seconds
-[49]	val-ndcg:0.55440
-[XGBoost] iteration 51 took 63.198197 seconds
-[50]	val-ndcg:0.55489
-[XGBoost] iteration 52 took 62.727758 seconds
-[51]	val-ndcg:0.55534
-[XGBoost] iteration 53 took 62.567464 seconds
-[52]	val-ndcg:0.55557
-[XGBoost] iteration 54 took 62.731651 seconds
-[53]	val-ndcg:0.55589
-[XGBoost] iteration 55 took 62.864452 seconds
-[54]	val-ndcg:0.55637
-[XGBoost] iteration 56 took 62.326371 seconds
-[55]	val-ndcg:0.55663
-[XGBoost] iteration 57 took 63.055967 seconds
-[56]	val-ndcg:0.55683
-[XGBoost] iteration 58 took 63.232865 seconds
-[57]	val-ndcg:0.55688
-[XGBoost] iteration 59 took 62.953318 seconds
-[58]	val-ndcg:0.55721
-[XGBoost] iteration 60 took 62.683174 seconds
-[59]	val-ndcg:0.55729
-[XGBoost] iteration 61 took 62.963206 seconds
-[60]	val-ndcg:0.55768
-[XGBoost] iteration 62 took 63.509985 seconds
-[61]	val-ndcg:0.55806
-[XGBoost] iteration 63 took 63.262026 seconds
-[62]	val-ndcg:0.55827
-[XGBoost] iteration 64 took 63.173943 seconds
-[63]	val-ndcg:0.55830
-[XGBoost] iteration 65 took 63.027294 seconds
-[64]	val-ndcg:0.55872
-[XGBoost] iteration 66 took 63.132907 seconds
-[65]	val-ndcg:0.55885
-[XGBoost] iteration 67 took 62.888370 seconds
-[66]	val-ndcg:0.55906
-[XGBoost] iteration 68 took 63.311631 seconds
-[67]	val-ndcg:0.55946
-[XGBoost] iteration 69 took 63.197901 seconds
-[68]	val-ndcg:0.55970
-[XGBoost] iteration 70 took 63.072461 seconds
-[69]	val-ndcg:0.55985
-[XGBoost] iteration 71 took 62.856100 seconds
-[70]	val-ndcg:0.55996
-[XGBoost] iteration 72 took 63.231829 seconds
-[71]	val-ndcg:0.56011
-[XGBoost] iteration 73 took 63.203661 seconds
-[72]	val-ndcg:0.56062
-[XGBoost] iteration 74 took 62.716813 seconds
-[73]	val-ndcg:0.56109
-[XGBoost] iteration 75 took 63.131725 seconds
-[74]	val-ndcg:0.56119
-[XGBoost] iteration 76 took 62.989869 seconds
-[75]	val-ndcg:0.56143
-[XGBoost] iteration 77 took 62.352177 seconds
-[76]	val-ndcg:0.56141
-[XGBoost] iteration 78 took 63.271655 seconds
-[77]	val-ndcg:0.56159
-[XGBoost] iteration 79 took 64.018480 seconds
-[78]	val-ndcg:0.56192
-[XGBoost] iteration 80 took 62.396331 seconds
-[79]	val-ndcg:0.56206
-[XGBoost] iteration 81 took 62.403639 seconds
-[80]	val-ndcg:0.56246
-[XGBoost] iteration 82 took 62.753851 seconds
-[81]	val-ndcg:0.56267
-[XGBoost] iteration 83 took 62.991635 seconds
-[82]	val-ndcg:0.56297
-[XGBoost] iteration 84 took 62.484664 seconds
-[83]	val-ndcg:0.56327
-[XGBoost] iteration 85 took 63.084734 seconds
-[84]	val-ndcg:0.56379
-[XGBoost] iteration 86 took 63.402377 seconds
-[85]	val-ndcg:0.56406
-[XGBoost] iteration 87 took 62.414836 seconds
-[86]	val-ndcg:0.56423
-[XGBoost] iteration 88 took 63.697381 seconds
-[87]	val-ndcg:0.56458
-[XGBoost] iteration 89 took 62.842787 seconds
-[88]	val-ndcg:0.56456
-[XGBoost] iteration 90 took 63.640879 seconds
-[89]	val-ndcg:0.56498
-[XGBoost] iteration 91 took 62.383158 seconds
-[90]	val-ndcg:0.56520
-[XGBoost] iteration 92 took 61.830223 seconds
-[91]	val-ndcg:0.56550
-[XGBoost] iteration 93 took 58.363277 seconds
-[92]	val-ndcg:0.56567
-[XGBoost] iteration 94 took 61.048148 seconds
-[93]	val-ndcg:0.56596
-[XGBoost] iteration 95 took 62.737587 seconds
-[94]	val-ndcg:0.56634
-[XGBoost] iteration 96 took 64.010924 seconds
-[95]	val-ndcg:0.56649
-[XGBoost] iteration 97 took 62.740429 seconds
-[96]	val-ndcg:0.56649
-[XGBoost] iteration 98 took 63.127535 seconds
-[97]	val-ndcg:0.56675
-[XGBoost] iteration 99 took 63.276810 seconds
-[98]	val-ndcg:0.56694
-[XGBoost] iteration 100 took 62.782635 seconds
-[99]	val-ndcg:0.56735
-[XGBoost] ndcg@10 on test set: [0]	test-ndcg:0.56738819748893454
-[XGBoost] Average iteration time: 63.071728982925414
-[XGBoost] Std iteration time: 1.6426681050339695
+[0]	val-ndcg@10:0.44262
+[XGBoost] iteration 1 took 88.021497 seconds
+[1]	val-ndcg@10:0.45887
+[XGBoost] iteration 2 took 62.412606 seconds
+[2]	val-ndcg@10:0.46207
+[XGBoost] iteration 3 took 64.068316 seconds
+[3]	val-ndcg@10:0.46436
+[XGBoost] iteration 4 took 63.347183 seconds
+[4]	val-ndcg@10:0.46555
+[XGBoost] iteration 5 took 61.359843 seconds
+[5]	val-ndcg@10:0.46624
+[XGBoost] iteration 6 took 60.920612 seconds
+[6]	val-ndcg@10:0.46843
+[XGBoost] iteration 7 took 60.912736 seconds
+[7]	val-ndcg@10:0.46977
+[XGBoost] iteration 8 took 61.186488 seconds
+[8]	val-ndcg@10:0.47049
+[XGBoost] iteration 9 took 61.229169 seconds
+[9]	val-ndcg@10:0.47047
+[XGBoost] iteration 10 took 63.958163 seconds
+[10]	val-ndcg@10:0.47185
+[XGBoost] iteration 11 took 61.691230 seconds
+[11]	val-ndcg@10:0.47265
+[XGBoost] iteration 12 took 60.568845 seconds
+[12]	val-ndcg@10:0.47340
+[XGBoost] iteration 13 took 60.955983 seconds
+[13]	val-ndcg@10:0.47371
+[XGBoost] iteration 14 took 60.662722 seconds
+[14]	val-ndcg@10:0.47466
+[XGBoost] iteration 15 took 60.727165 seconds
+[15]	val-ndcg@10:0.47503
+[XGBoost] iteration 16 took 61.685633 seconds
+[16]	val-ndcg@10:0.47542
+[XGBoost] iteration 17 took 59.890182 seconds
+[17]	val-ndcg@10:0.47622
+[XGBoost] iteration 18 took 59.797824 seconds
+[18]	val-ndcg@10:0.47671
+[XGBoost] iteration 19 took 60.043860 seconds
+[19]	val-ndcg@10:0.47706
+[XGBoost] iteration 20 took 60.026771 seconds
+[20]	val-ndcg@10:0.47712
+[XGBoost] iteration 21 took 60.830733 seconds
+[21]	val-ndcg@10:0.47748
+[XGBoost] iteration 22 took 60.908796 seconds
+[22]	val-ndcg@10:0.47812
+[XGBoost] iteration 23 took 59.355168 seconds
+[23]	val-ndcg@10:0.47902
+[XGBoost] iteration 24 took 60.282063 seconds
+[24]	val-ndcg@10:0.48007
+[XGBoost] iteration 25 took 62.081237 seconds
+[25]	val-ndcg@10:0.48029
+[XGBoost] iteration 26 took 61.173265 seconds
+[26]	val-ndcg@10:0.48062
+[XGBoost] iteration 27 took 172.009550 seconds
+[27]	val-ndcg@10:0.48153
+[XGBoost] iteration 28 took 79.794094 seconds
+[28]	val-ndcg@10:0.48202
+[XGBoost] iteration 29 took 1914.776935 seconds
+[29]	val-ndcg@10:0.48266
+[XGBoost] iteration 30 took 2457.613436 seconds
+[30]	val-ndcg@10:0.48332
+[XGBoost] iteration 31 took 77.409419 seconds
+[31]	val-ndcg@10:0.48391
+[XGBoost] iteration 32 took 75.056588 seconds
+[32]	val-ndcg@10:0.48438
+[XGBoost] iteration 33 took 65.373911 seconds
+[33]	val-ndcg@10:0.48478
+[XGBoost] iteration 34 took 65.907499 seconds
+[34]	val-ndcg@10:0.48499
+[XGBoost] iteration 35 took 65.033700 seconds
+[35]	val-ndcg@10:0.48554
+[XGBoost] iteration 36 took 65.453935 seconds
+[36]	val-ndcg@10:0.48586
+[XGBoost] iteration 37 took 65.872046 seconds
+[37]	val-ndcg@10:0.48630
+[XGBoost] iteration 38 took 65.649575 seconds
+[38]	val-ndcg@10:0.48686
+[XGBoost] iteration 39 took 65.684327 seconds
+[39]	val-ndcg@10:0.48772
+[XGBoost] iteration 40 took 65.720608 seconds
+[40]	val-ndcg@10:0.48808
+[XGBoost] iteration 41 took 65.687398 seconds
+[41]	val-ndcg@10:0.48836
+[XGBoost] iteration 42 took 64.788078 seconds
+[42]	val-ndcg@10:0.48870
+[XGBoost] iteration 43 took 65.729274 seconds
+[43]	val-ndcg@10:0.48902
+[XGBoost] iteration 44 took 64.503368 seconds
+[44]	val-ndcg@10:0.48912
+[XGBoost] iteration 45 took 65.468291 seconds
+[45]	val-ndcg@10:0.48922
+[XGBoost] iteration 46 took 74.404918 seconds
+[46]	val-ndcg@10:0.48980
+[XGBoost] iteration 47 took 79.495977 seconds
+[47]	val-ndcg@10:0.49010
+[XGBoost] iteration 48 took 70.443855 seconds
+[48]	val-ndcg@10:0.49020
+[XGBoost] iteration 49 took 70.246835 seconds
+[49]	val-ndcg@10:0.49067
+[XGBoost] iteration 50 took 69.205077 seconds
+[50]	val-ndcg@10:0.49125
+[XGBoost] iteration 51 took 69.458315 seconds
+[51]	val-ndcg@10:0.49153
+[XGBoost] iteration 52 took 69.292841 seconds
+[52]	val-ndcg@10:0.49190
+[XGBoost] iteration 53 took 69.646437 seconds
+[53]	val-ndcg@10:0.49233
+[XGBoost] iteration 54 took 77.193405 seconds
+[54]	val-ndcg@10:0.49265
+[XGBoost] iteration 55 took 113.037961 seconds
+[55]	val-ndcg@10:0.49295
+[XGBoost] iteration 56 took 104.006249 seconds
+[56]	val-ndcg@10:0.49292
+[XGBoost] iteration 57 took 90.052618 seconds
+[57]	val-ndcg@10:0.49311
+[XGBoost] iteration 58 took 69.078867 seconds
+[58]	val-ndcg@10:0.49349
+[XGBoost] iteration 59 took 70.599593 seconds
+[59]	val-ndcg@10:0.49381
+[XGBoost] iteration 60 took 68.915275 seconds
+[60]	val-ndcg@10:0.49433
+[XGBoost] iteration 61 took 69.690448 seconds
+[61]	val-ndcg@10:0.49449
+[XGBoost] iteration 62 took 70.636355 seconds
+[62]	val-ndcg@10:0.49479
+[XGBoost] iteration 63 took 68.917967 seconds
+[63]	val-ndcg@10:0.49499
+[XGBoost] iteration 64 took 69.260783 seconds
+[64]	val-ndcg@10:0.49525
+[XGBoost] iteration 65 took 68.828003 seconds
+[65]	val-ndcg@10:0.49526
+[XGBoost] iteration 66 took 68.451147 seconds
+[66]	val-ndcg@10:0.49565
+[XGBoost] iteration 67 took 70.631809 seconds
+[67]	val-ndcg@10:0.49597
+[XGBoost] iteration 68 took 73.352222 seconds
+[68]	val-ndcg@10:0.49627
+[XGBoost] iteration 69 took 70.162968 seconds
+[69]	val-ndcg@10:0.49666
+[XGBoost] iteration 70 took 72.665069 seconds
+[70]	val-ndcg@10:0.49703
+[XGBoost] iteration 71 took 82.859219 seconds
+[71]	val-ndcg@10:0.49700
+[XGBoost] iteration 72 took 98.040599 seconds
+[72]	val-ndcg@10:0.49721
+[XGBoost] iteration 73 took 79.890696 seconds
+[73]	val-ndcg@10:0.49785
+[XGBoost] iteration 74 took 71.882652 seconds
+[74]	val-ndcg@10:0.49792
+[XGBoost] iteration 75 took 72.657732 seconds
+[75]	val-ndcg@10:0.49784
+[XGBoost] iteration 76 took 72.474155 seconds
+[76]	val-ndcg@10:0.49818
+[XGBoost] iteration 77 took 71.057608 seconds
+[77]	val-ndcg@10:0.49843
+[XGBoost] iteration 78 took 71.614089 seconds
+[78]	val-ndcg@10:0.49858
+[XGBoost] iteration 79 took 71.295907 seconds
+[79]	val-ndcg@10:0.49872
+[XGBoost] iteration 80 took 70.741337 seconds
+[80]	val-ndcg@10:0.49894
+[XGBoost] iteration 81 took 69.881723 seconds
+[81]	val-ndcg@10:0.49920
+[XGBoost] iteration 82 took 69.506036 seconds
+[82]	val-ndcg@10:0.49940
+[XGBoost] iteration 83 took 70.080737 seconds
+[83]	val-ndcg@10:0.49965
+[XGBoost] iteration 84 took 70.451674 seconds
+[84]	val-ndcg@10:0.50023
+[XGBoost] iteration 85 took 70.620922 seconds
+[85]	val-ndcg@10:0.50063
+[XGBoost] iteration 86 took 72.439774 seconds
+[86]	val-ndcg@10:0.50108
+[XGBoost] iteration 87 took 70.664813 seconds
+[87]	val-ndcg@10:0.50119
+[XGBoost] iteration 88 took 71.754553 seconds
+[88]	val-ndcg@10:0.50127
+[XGBoost] iteration 89 took 71.114333 seconds
+[89]	val-ndcg@10:0.50176
+[XGBoost] iteration 90 took 71.443484 seconds
+[90]	val-ndcg@10:0.50217
+[XGBoost] iteration 91 took 69.908854 seconds
+[91]	val-ndcg@10:0.50234
+[XGBoost] iteration 92 took 71.075250 seconds
+[92]	val-ndcg@10:0.50247
+[XGBoost] iteration 93 took 70.884264 seconds
+[93]	val-ndcg@10:0.50273
+[XGBoost] iteration 94 took 70.728679 seconds
+[94]	val-ndcg@10:0.50296
+[XGBoost] iteration 95 took 70.180359 seconds
+[95]	val-ndcg@10:0.50314
+[XGBoost] iteration 96 took 71.833713 seconds
+[96]	val-ndcg@10:0.50328
+[XGBoost] iteration 97 took 70.010383 seconds
+[97]	val-ndcg@10:0.50351
+[XGBoost] iteration 98 took 71.215160 seconds
+[98]	val-ndcg@10:0.50372
+[XGBoost] iteration 99 took 70.481357 seconds
+[99]	val-ndcg@10:0.50421
+[XGBoost] iteration 100 took 69.544830 seconds
+[XGBoost] ndcg@10 on test set: [0]	test-ndcg@10:0.50632863603826861
+[XGBoost] Average iteration time: 112.89640006542206
+[XGBoost] Std iteration time: 298.96040689746803

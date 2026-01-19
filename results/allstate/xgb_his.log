@@ -1,203 +1,203 @@
 [XGBoost] training start
-[XGBoost] iteration 1 took 15.310374 seconds
-[0]	val-rmse:41.66336
-[XGBoost] iteration 2 took 3.138092 seconds
-[1]	val-rmse:41.66341
-[XGBoost] iteration 3 took 3.035805 seconds
-[2]	val-rmse:41.66349
-[XGBoost] iteration 4 took 3.251719 seconds
-[3]	val-rmse:41.66360
-[XGBoost] iteration 5 took 1.359725 seconds
-[4]	val-rmse:41.66370
-[XGBoost] iteration 6 took 1.981406 seconds
-[5]	val-rmse:41.66375
-[XGBoost] iteration 7 took 3.063908 seconds
-[6]	val-rmse:41.66383
-[XGBoost] iteration 8 took 2.608505 seconds
-[7]	val-rmse:41.66397
-[XGBoost] iteration 9 took 1.669066 seconds
-[8]	val-rmse:41.66409
-[XGBoost] iteration 10 took 1.169341 seconds
-[9]	val-rmse:41.66412
-[XGBoost] iteration 11 took 1.337634 seconds
-[10]	val-rmse:41.66431
-[XGBoost] iteration 12 took 1.340842 seconds
-[11]	val-rmse:41.66435
-[XGBoost] iteration 13 took 1.737786 seconds
-[12]	val-rmse:41.66461
-[XGBoost] iteration 14 took 1.854305 seconds
-[13]	val-rmse:41.66468
-[XGBoost] iteration 15 took 3.266937 seconds
-[14]	val-rmse:41.66497
-[XGBoost] iteration 16 took 2.174344 seconds
-[15]	val-rmse:41.66535
-[XGBoost] iteration 17 took 1.863194 seconds
-[16]	val-rmse:41.66544
-[XGBoost] iteration 18 took 3.388500 seconds
-[17]	val-rmse:41.66582
-[XGBoost] iteration 19 took 3.474601 seconds
-[18]	val-rmse:41.66590
-[XGBoost] iteration 20 took 2.785925 seconds
-[19]	val-rmse:41.66600
-[XGBoost] iteration 21 took 2.846626 seconds
-[20]	val-rmse:41.66648
-[XGBoost] iteration 22 took 3.051054 seconds
-[21]	val-rmse:41.66657
-[XGBoost] iteration 23 took 3.035745 seconds
-[22]	val-rmse:41.66690
-[XGBoost] iteration 24 took 3.868885 seconds
-[23]	val-rmse:41.66697
-[XGBoost] iteration 25 took 5.523302 seconds
-[24]	val-rmse:41.66704
-[XGBoost] iteration 26 took 2.476282 seconds
-[25]	val-rmse:41.66762
-[XGBoost] iteration 27 took 2.317662 seconds
-[26]	val-rmse:41.66819
-[XGBoost] iteration 28 took 1.747840 seconds
-[27]	val-rmse:41.66823
-[XGBoost] iteration 29 took 3.919692 seconds
-[28]	val-rmse:41.66828
-[XGBoost] iteration 30 took 3.554440 seconds
-[29]	val-rmse:41.66853
-[XGBoost] iteration 31 took 2.103215 seconds
-[30]	val-rmse:41.66888
-[XGBoost] iteration 32 took 0.725916 seconds
-[31]	val-rmse:41.66898
-[XGBoost] iteration 33 took 0.796316 seconds
-[32]	val-rmse:41.66930
-[XGBoost] iteration 34 took 0.785836 seconds
-[33]	val-rmse:41.66936
-[XGBoost] iteration 35 took 0.791079 seconds
-[34]	val-rmse:41.66964
-[XGBoost] iteration 36 took 0.788917 seconds
-[35]	val-rmse:41.66977
-[XGBoost] iteration 37 took 0.672793 seconds
-[36]	val-rmse:41.67014
-[XGBoost] iteration 38 took 0.881938 seconds
-[37]	val-rmse:41.67024
-[XGBoost] iteration 39 took 0.848985 seconds
-[38]	val-rmse:41.67076
-[XGBoost] iteration 40 took 0.761504 seconds
-[39]	val-rmse:41.67088
-[XGBoost] iteration 41 took 0.834147 seconds
-[40]	val-rmse:41.67132
-[XGBoost] iteration 42 took 0.870527 seconds
-[41]	val-rmse:41.67143
-[XGBoost] iteration 43 took 1.046461 seconds
-[42]	val-rmse:41.67184
-[XGBoost] iteration 44 took 0.875758 seconds
-[43]	val-rmse:41.67193
-[XGBoost] iteration 45 took 0.875316 seconds
-[44]	val-rmse:41.67257
-[XGBoost] iteration 46 took 1.009127 seconds
-[45]	val-rmse:41.67268
-[XGBoost] iteration 47 took 1.058017 seconds
-[46]	val-rmse:41.67293
-[XGBoost] iteration 48 took 1.062351 seconds
-[47]	val-rmse:41.67311
-[XGBoost] iteration 49 took 1.127594 seconds
-[48]	val-rmse:41.67320
-[XGBoost] iteration 50 took 1.041626 seconds
-[49]	val-rmse:41.67327
-[XGBoost] iteration 51 took 1.050556 seconds
-[50]	val-rmse:41.67342
-[XGBoost] iteration 52 took 1.200539 seconds
-[51]	val-rmse:41.67364
-[XGBoost] iteration 53 took 1.125817 seconds
-[52]	val-rmse:41.67393
-[XGBoost] iteration 54 took 1.035054 seconds
-[53]	val-rmse:41.67398
-[XGBoost] iteration 55 took 1.085991 seconds
-[54]	val-rmse:41.67399
-[XGBoost] iteration 56 took 1.073696 seconds
-[55]	val-rmse:41.67403
-[XGBoost] iteration 57 took 1.109425 seconds
-[56]	val-rmse:41.67404
-[XGBoost] iteration 58 took 1.010035 seconds
-[57]	val-rmse:41.67480
-[XGBoost] iteration 59 took 0.994397 seconds
-[58]	val-rmse:41.67487
-[XGBoost] iteration 60 took 1.004463 seconds
-[59]	val-rmse:41.67493
-[XGBoost] iteration 61 took 1.034704 seconds
-[60]	val-rmse:41.67498
-[XGBoost] iteration 62 took 1.125138 seconds
-[61]	val-rmse:41.67507
-[XGBoost] iteration 63 took 0.984747 seconds
-[62]	val-rmse:41.67553
-[XGBoost] iteration 64 took 0.919163 seconds
-[63]	val-rmse:41.67567
-[XGBoost] iteration 65 took 0.991643 seconds
-[64]	val-rmse:41.67611
-[XGBoost] iteration 66 took 1.000555 seconds
-[65]	val-rmse:41.67618
-[XGBoost] iteration 67 took 0.890794 seconds
-[66]	val-rmse:41.67692
-[XGBoost] iteration 68 took 0.849118 seconds
-[67]	val-rmse:41.67708
-[XGBoost] iteration 69 took 0.976917 seconds
-[68]	val-rmse:41.67757
-[XGBoost] iteration 70 took 1.148947 seconds
-[69]	val-rmse:41.67801
-[XGBoost] iteration 71 took 1.267863 seconds
-[70]	val-rmse:41.67854
-[XGBoost] iteration 72 took 1.016062 seconds
-[71]	val-rmse:41.67930
-[XGBoost] iteration 73 took 0.770093 seconds
-[72]	val-rmse:41.67991
-[XGBoost] iteration 74 took 1.062955 seconds
-[73]	val-rmse:41.68036
-[XGBoost] iteration 75 took 0.989625 seconds
-[74]	val-rmse:41.68097
-[XGBoost] iteration 76 took 1.200481 seconds
-[75]	val-rmse:41.68109
-[XGBoost] iteration 77 took 0.936222 seconds
-[76]	val-rmse:41.68117
-[XGBoost] iteration 78 took 1.009410 seconds
-[77]	val-rmse:41.68178
-[XGBoost] iteration 79 took 0.902362 seconds
-[78]	val-rmse:41.68231
-[XGBoost] iteration 80 took 1.050389 seconds
-[79]	val-rmse:41.68302
-[XGBoost] iteration 81 took 1.027175 seconds
-[80]	val-rmse:41.68305
-[XGBoost] iteration 82 took 0.815328 seconds
-[81]	val-rmse:41.68390
-[XGBoost] iteration 83 took 0.971389 seconds
-[82]	val-rmse:41.68468
-[XGBoost] iteration 84 took 1.072953 seconds
-[83]	val-rmse:41.68519
-[XGBoost] iteration 85 took 0.999926 seconds
-[84]	val-rmse:41.68530
-[XGBoost] iteration 86 took 1.063145 seconds
-[85]	val-rmse:41.68533
-[XGBoost] iteration 87 took 1.023283 seconds
-[86]	val-rmse:41.68599
-[XGBoost] iteration 88 took 0.967223 seconds
-[87]	val-rmse:41.68637
-[XGBoost] iteration 89 took 1.404940 seconds
-[88]	val-rmse:41.68673
-[XGBoost] iteration 90 took 0.884976 seconds
-[89]	val-rmse:41.68676
-[XGBoost] iteration 91 took 0.941711 seconds
-[90]	val-rmse:41.68759
-[XGBoost] iteration 92 took 0.977392 seconds
-[91]	val-rmse:41.68763
-[XGBoost] iteration 93 took 1.058274 seconds
-[92]	val-rmse:41.68774
-[XGBoost] iteration 94 took 1.487646 seconds
-[93]	val-rmse:41.68779
-[XGBoost] iteration 95 took 1.827487 seconds
-[94]	val-rmse:41.68806
-[XGBoost] iteration 96 took 0.591474 seconds
-[95]	val-rmse:41.68838
-[XGBoost] iteration 97 took 0.843799 seconds
-[96]	val-rmse:41.68842
-[XGBoost] iteration 98 took 1.186591 seconds
-[97]	val-rmse:41.68872
-[XGBoost] iteration 99 took 1.004580 seconds
-[98]	val-rmse:41.68881
-[XGBoost] iteration 100 took 0.989238 seconds
-[99]	val-rmse:41.68923
-[XGBoost] Average iteration time: 1.6306665110588074
-[XGBoost] Std iteration time: 1.656741874690925
+[XGBoost] iteration 1 took 19.564954 seconds
+[0]	val-auc:0.58816
+[XGBoost] iteration 2 took 1.631049 seconds
+[1]	val-auc:0.58858
+[XGBoost] iteration 3 took 1.686217 seconds
+[2]	val-auc:0.58934
+[XGBoost] iteration 4 took 1.675149 seconds
+[3]	val-auc:0.58971
+[XGBoost] iteration 5 took 1.688813 seconds
+[4]	val-auc:0.58972
+[XGBoost] iteration 6 took 1.703120 seconds
+[5]	val-auc:0.58954
+[XGBoost] iteration 7 took 1.699576 seconds
+[6]	val-auc:0.58980
+[XGBoost] iteration 8 took 1.749939 seconds
+[7]	val-auc:0.58993
+[XGBoost] iteration 9 took 1.649110 seconds
+[8]	val-auc:0.59243
+[XGBoost] iteration 10 took 1.831753 seconds
+[9]	val-auc:0.59250
+[XGBoost] iteration 11 took 1.747549 seconds
+[10]	val-auc:0.59300
+[XGBoost] iteration 12 took 1.813268 seconds
+[11]	val-auc:0.59304
+[XGBoost] iteration 13 took 1.782435 seconds
+[12]	val-auc:0.59332
+[XGBoost] iteration 14 took 1.704952 seconds
+[13]	val-auc:0.59348
+[XGBoost] iteration 15 took 1.749797 seconds
+[14]	val-auc:0.59390
+[XGBoost] iteration 16 took 1.743689 seconds
+[15]	val-auc:0.59407
+[XGBoost] iteration 17 took 1.861303 seconds
+[16]	val-auc:0.59409
+[XGBoost] iteration 18 took 1.747450 seconds
+[17]	val-auc:0.59444
+[XGBoost] iteration 19 took 1.775381 seconds
+[18]	val-auc:0.59470
+[XGBoost] iteration 20 took 1.825492 seconds
+[19]	val-auc:0.59441
+[XGBoost] iteration 21 took 1.981283 seconds
+[20]	val-auc:0.59484
+[XGBoost] iteration 22 took 2.026423 seconds
+[21]	val-auc:0.59488
+[XGBoost] iteration 23 took 2.040960 seconds
+[22]	val-auc:0.59495
+[XGBoost] iteration 24 took 1.850116 seconds
+[23]	val-auc:0.59515
+[XGBoost] iteration 25 took 1.880233 seconds
+[24]	val-auc:0.59535
+[XGBoost] iteration 26 took 1.886579 seconds
+[25]	val-auc:0.59544
+[XGBoost] iteration 27 took 1.846757 seconds
+[26]	val-auc:0.59571
+[XGBoost] iteration 28 took 2.066989 seconds
+[27]	val-auc:0.59589
+[XGBoost] iteration 29 took 2.201428 seconds
+[28]	val-auc:0.59595
+[XGBoost] iteration 30 took 2.141324 seconds
+[29]	val-auc:0.59605
+[XGBoost] iteration 31 took 2.022148 seconds
+[30]	val-auc:0.59627
+[XGBoost] iteration 32 took 2.245693 seconds
+[31]	val-auc:0.59638
+[XGBoost] iteration 33 took 2.203321 seconds
+[32]	val-auc:0.59652
+[XGBoost] iteration 34 took 2.260733 seconds
+[33]	val-auc:0.59667
+[XGBoost] iteration 35 took 2.280801 seconds
+[34]	val-auc:0.59682
+[XGBoost] iteration 36 took 2.216966 seconds
+[35]	val-auc:0.59710
+[XGBoost] iteration 37 took 2.301224 seconds
+[36]	val-auc:0.59722
+[XGBoost] iteration 38 took 2.148208 seconds
+[37]	val-auc:0.59740
+[XGBoost] iteration 39 took 2.235704 seconds
+[38]	val-auc:0.59761
+[XGBoost] iteration 40 took 2.323868 seconds
+[39]	val-auc:0.59784
+[XGBoost] iteration 41 took 2.304252 seconds
+[40]	val-auc:0.59793
+[XGBoost] iteration 42 took 2.219593 seconds
+[41]	val-auc:0.59814
+[XGBoost] iteration 43 took 2.287183 seconds
+[42]	val-auc:0.59822
+[XGBoost] iteration 44 took 2.250382 seconds
+[43]	val-auc:0.59830
+[XGBoost] iteration 45 took 2.089253 seconds
+[44]	val-auc:0.59840
+[XGBoost] iteration 46 took 2.200840 seconds
+[45]	val-auc:0.59848
+[XGBoost] iteration 47 took 2.203721 seconds
+[46]	val-auc:0.59861
+[XGBoost] iteration 48 took 2.314100 seconds
+[47]	val-auc:0.59879
+[XGBoost] iteration 49 took 8.634484 seconds
+[48]	val-auc:0.59882
+[XGBoost] iteration 50 took 9.781989 seconds
+[49]	val-auc:0.59903
+[XGBoost] iteration 51 took 5.603949 seconds
+[50]	val-auc:0.59906
+[XGBoost] iteration 52 took 2.726722 seconds
+[51]	val-auc:0.59922
+[XGBoost] iteration 53 took 5.787256 seconds
+[52]	val-auc:0.59924
+[XGBoost] iteration 54 took 3.863099 seconds
+[53]	val-auc:0.59929
+[XGBoost] iteration 55 took 4.352320 seconds
+[54]	val-auc:0.59935
+[XGBoost] iteration 56 took 4.210953 seconds
+[55]	val-auc:0.59952
+[XGBoost] iteration 57 took 4.833465 seconds
+[56]	val-auc:0.59963
+[XGBoost] iteration 58 took 3.617612 seconds
+[57]	val-auc:0.59967
+[XGBoost] iteration 59 took 3.554513 seconds
+[58]	val-auc:0.59977
+[XGBoost] iteration 60 took 4.032146 seconds
+[59]	val-auc:0.59984
+[XGBoost] iteration 61 took 3.893728 seconds
+[60]	val-auc:0.59991
+[XGBoost] iteration 62 took 4.571187 seconds
+[61]	val-auc:0.60009
+[XGBoost] iteration 63 took 4.300212 seconds
+[62]	val-auc:0.60016
+[XGBoost] iteration 64 took 4.776934 seconds
+[63]	val-auc:0.60025
+[XGBoost] iteration 65 took 44.585220 seconds
+[64]	val-auc:0.60038
+[XGBoost] iteration 66 took 2.868837 seconds
+[65]	val-auc:0.60043
+[XGBoost] iteration 67 took 2.990589 seconds
+[66]	val-auc:0.60052
+[XGBoost] iteration 68 took 2.778316 seconds
+[67]	val-auc:0.60059
+[XGBoost] iteration 69 took 2.764601 seconds
+[68]	val-auc:0.60066
+[XGBoost] iteration 70 took 3.091900 seconds
+[69]	val-auc:0.60071
+[XGBoost] iteration 71 took 2.905298 seconds
+[70]	val-auc:0.60075
+[XGBoost] iteration 72 took 3.109129 seconds
+[71]	val-auc:0.60085
+[XGBoost] iteration 73 took 2.784862 seconds
+[72]	val-auc:0.60088
+[XGBoost] iteration 74 took 11.752373 seconds
+[73]	val-auc:0.60090
+[XGBoost] iteration 75 took 9.597079 seconds
+[74]	val-auc:0.60101
+[XGBoost] iteration 76 took 11.578972 seconds
+[75]	val-auc:0.60109
+[XGBoost] iteration 77 took 7.730800 seconds
+[76]	val-auc:0.60121
+[XGBoost] iteration 78 took 6.349031 seconds
+[77]	val-auc:0.60127
+[XGBoost] iteration 79 took 6.293451 seconds
+[78]	val-auc:0.60139
+[XGBoost] iteration 80 took 9.460180 seconds
+[79]	val-auc:0.60151
+[XGBoost] iteration 81 took 9.909086 seconds
+[80]	val-auc:0.60159
+[XGBoost] iteration 82 took 5.489333 seconds
+[81]	val-auc:0.60166
+[XGBoost] iteration 83 took 5.385528 seconds
+[82]	val-auc:0.60170
+[XGBoost] iteration 84 took 6.502410 seconds
+[83]	val-auc:0.60180
+[XGBoost] iteration 85 took 6.576640 seconds
+[84]	val-auc:0.60189
+[XGBoost] iteration 86 took 5.988256 seconds
+[85]	val-auc:0.60197
+[XGBoost] iteration 87 took 8.623784 seconds
+[86]	val-auc:0.60207
+[XGBoost] iteration 88 took 12.161145 seconds
+[87]	val-auc:0.60215
+[XGBoost] iteration 89 took 11.160801 seconds
+[88]	val-auc:0.60218
+[XGBoost] iteration 90 took 4.190019 seconds
+[89]	val-auc:0.60234
+[XGBoost] iteration 91 took 4.841354 seconds
+[90]	val-auc:0.60242
+[XGBoost] iteration 92 took 6.024166 seconds
+[91]	val-auc:0.60247
+[XGBoost] iteration 93 took 7.011483 seconds
+[92]	val-auc:0.60258
+[XGBoost] iteration 94 took 5.239881 seconds
+[93]	val-auc:0.60268
+[XGBoost] iteration 95 took 11.662207 seconds
+[94]	val-auc:0.60277
+[XGBoost] iteration 96 took 11.364765 seconds
+[95]	val-auc:0.60286
+[XGBoost] iteration 97 took 18.137812 seconds
+[96]	val-auc:0.60291
+[XGBoost] iteration 98 took 13.526275 seconds
+[97]	val-auc:0.60295
+[XGBoost] iteration 99 took 6.180853 seconds
+[98]	val-auc:0.60299
+[XGBoost] iteration 100 took 12.268693 seconds
+[99]	val-auc:0.60309
+[XGBoost] Average iteration time: 4.94086774110794
+[XGBoost] Std iteration time: 5.4405205053507215

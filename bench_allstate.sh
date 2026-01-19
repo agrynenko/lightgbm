@@ -12,8 +12,8 @@ SPARSE=true
 RESULTS_FOLDER=results/${DATASET}
 
 # Common model config
-OBJECTIVE=regression
-OBJECTIVE_XGB=reg:squarederror
+OBJECTIVE=binary
+OBJECTIVE_XGB=binary:logistic
 NTHREADS=1
 
 MIN_DATA=1
@@ -69,7 +69,7 @@ for config in "${LGB_FILES[@]}"; do
     num_round=$ROUNDS \
     tree_learner=$LEARNER \
     is_sparse=$SPARSE \
-    metric=rmse \
+    metric=auc \
     2>&1 | tee "$log_file"; then
     echo "✓ $config_name completed successfully"
   else
@@ -106,6 +106,7 @@ for config in "${XGB_FILES[@]}"; do
     --learning_rate "$LR" \
     --min_child_weight "$MIN_HESSIAN" \
     --num_round "$ROUNDS" \
+    --eval "auc" \
     2>&1 | tee "$log_file"; then
     echo "✓ $config_name completed successfully"
   else

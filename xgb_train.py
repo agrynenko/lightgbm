@@ -50,7 +50,7 @@ def main():
     p.add_argument("--config", required=True, type=str)
     p.add_argument("--train", required=True, type=str)
     p.add_argument("--val", required=True, type=str)
-    p.add_argument("--test", required=False, type=Optional[str], default=None)
+    p.add_argument("--test", required=False, type=str, default=None)
     p.add_argument("--objective", default="reg:squarederror")
     p.add_argument("--num_threads", type=int, default=8)
     p.add_argument("--learning_rate", type=float, default=0.05)
